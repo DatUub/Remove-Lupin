@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Remove Lupin Modpacks",
     "version": "1.0",
     "host_permsissions": ["https://www.curseforge.com/*"],
