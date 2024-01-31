@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Remove Lupin Modpacks",
+    "version": "1.0",
+    "permissions": ["https://www.curseforge.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.curseforge.com/minecraft/search*"],
+        "js": ["removeLupinModpacks.js"]
+      }
+    ]
+  }
