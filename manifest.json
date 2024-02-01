@@ -1,12 +1,21 @@
 {
-    "manifest_version": 2,
-    "name": "Remove Lupin Modpacks",
-    "version": "1.0",
-    "host_permsissions": ["https://www.curseforge.com/*"],
-    "content_scripts": [
-      {
-        "matches": ["https://www.curseforge.com/minecraft/search*"],
-        "js": ["removeLupinModpacks.js"]
-      }
-    ]
-  }
+  "manifest_version": 3,
+  "name": "Remove Lupin",
+  "description": "Removes Lupin from all of",
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": [
+        "https://*.curseforge.com/*"
+      ]
+    }
+  ]
+}
