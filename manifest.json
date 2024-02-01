@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Remove Lupin",
-  "description": "Removes Lupin from all of",
+  "description": "Removes Lupin from all of CurseForge",
 
   "icons": {
     "16": "icons/icon16.png",
